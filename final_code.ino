@@ -23,7 +23,7 @@ void setup()
   pinMode(S6,INPUT);
 }
 
-const int Sense=900;   //This value needs to be set after optimization of the sensors
+const int Sense=900;   //This value needs to be set after optimization of the sensors - Make an optimization script for sensors
 
 char y[7];
 void sensor_read()
